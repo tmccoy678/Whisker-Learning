@@ -23,3 +23,16 @@ run("run.m")
 computational hypothesis, not wet-lab evidence or a biological-neural claim.
 
 MIT licensed.
+
+## Three retained benchmark findings
+
+Status: **sidebared after the first public benchmark screen**.
+
+1. The medium representation solved XOR at `100%` accuracy; the frozen linear
+   SVM control scored `50%`.
+2. Across five fixed seeds and five-fold held-out Iris testing, the medium
+   averaged `96.1%`; the raw linear control averaged `95.3%`.
+3. On Wine, a human-standard raw-input skip connection raised the medium from
+   `93.7%` to `95.8%` and retained `92.1%` after an untrained lesion.
+
+These are normalized computational screens, not wet-lab performance claims.
